@@ -24,6 +24,9 @@ def decrypt(data):
         s = {'0', '1'}
         return s == p or p == {'0'} or p == {'1'}
     data = data.split()
+    for i in range(len(data)):
+        while len(data[i]) % 8 != 0:
+            data[i] = '0' + data[i] 
     for i in data:
         if not check_bin(i):
             print('Error: Given cypher contained not binary number')
