@@ -1,7 +1,7 @@
 # bincypher
 
-## About project
-This project is created to crypt and decrypt messages using binary encryption and UTF-8 encoding.
+## About this project
+This project is created to encrypt and decrypt messages using binary encryption and UTF-8 encoding.
 
 ## Instruction
 All the instrucitons can be given by ```python3 bincypher.py``` or ```python3 bincypher.py --help```.  
@@ -15,6 +15,6 @@ Options:
 -e, --encrypt Encode mode
 -H, --hex     Clarifying that output will be in hex
 ```
-As you see you can also use hex values insted of binary ones.
+As you see you can also use hex values instead of binary.
 ### Notice:
-The script works only on Python 3
+The script works only with Python 3
